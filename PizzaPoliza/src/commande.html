@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PizzaPoliza - Commande & Réservation</title>
+    <link rel="stylesheet" type="text/css" href="../resources/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+</head>
+<body>
+    <section class="top-page">
+        <header class="header">
+            <img src="../resources/img/logo2.png" alt="logo du site" class="logo">
+            <nav class="nav">
+                <li><a href="index.html">Accueil</a></li>
+				<li><a href="index.html">Nos meilleures pizzas</a></li>
+                <li><a href="restaurants.html">Liste des Restaurants</a></li>
+                <li><a href="commande.html">Commander / Réserver</a></li>
+                <li><a href="#footer">Nous contacter</a></li>
+            </nav>
+        </header>
+
+        <div class="landing-page">
+            <h1 class="big-title">PizzaPoliza, réservez dès maintenant dans plus de 6 restaurants à travers la France! </h1>
+        </div>
+    </section> 
+
+    <section class="resto" id="resto">
+    <h2 class="section-title">Nos restaurants partout en France</h2>
+    <div class="restaurant-container1">
+        <!-- Liste des restaurants -->
+        <div class="restaurant-list">
+            <ul>
+                <li>Le Puy-En-Velay</li>
+                <li>Marseille</li>
+                <li>Rennes</li>
+                <li>Paris</li>
+                <li>Lyon</li>
+                <li>Nouzonville</li>
+            </ul>
+        </div>
+            <img src="../resources/img/lolo.png" alt="Nos restaurants" class="restaurant-image">
+            <a href="restaurants.html" class="btn-view-list">LISTE DE NOS RESTO</a>
+
+        </div>
+        <p>Retrouvez tous nos établissements près de chez vous et venez découvrir nos pizzas sur place.</p>
+    </section>
+
+    <section class="reservation" id="reservation">
+        <h2 class="section-title">Réserver une Table</h2>
+        <div class="reservation-container">
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+                <label for="date">Date :</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Heure :</label>
+                <input type="time" id="time" name="time" required>
+
+                <button type="submit">Réserver</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer-basic">
+        <footer id="footer">
+        	<p class="top-icon">Nous suivre sur les réseaux : @Pizza_Poliza</p>
+            <div class="social">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <p class="copyright">&copy; PizzaPoliza - 2025 - Tous Droits réservés</p>
+            <a href="cgv.html" class="cgv">Conditions générales de ventes</a>
+        </footer>
+    </div>
+</body>
+</html>
