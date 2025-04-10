@@ -1,4 +1,3 @@
-Only French Text in the files 
 🇺🇸 :
 Fictitious work started in 2022 with only the “index” file (based on the following tutorial: (https://www.youtube.com/watch?v=6hCGTJCo_Uo).
 2025 Resumption of the project, adding all the other pages. The images used come from ChatGPT, with some retouching. 
